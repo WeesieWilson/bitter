@@ -1,0 +1,21 @@
+{
+  "name": "bitter",
+  "authors": [
+    "Louise Wilson <louisebrookswilson@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "material-design-lite": "^1.1.2"
+  }
+}

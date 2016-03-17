@@ -7,7 +7,10 @@ module.exports =  Backbone.View.extend({
   el: '.bitter',
   initialize: function () {
     this.addAll();
-  
+
+    this.listenTo(this.collection, 'update', this.addAll);
+    this.listenTo(this.collection, 'change', this.addAll);
+
   },
   addOne: function (el) {
 
